@@ -31,7 +31,8 @@ async function main(){
 
 async function newHiresBuilder(startDate){
     console.log("Building a new hire scenario...")
-    let [newHire, _] = await createNewHire(startDate)
+    let managerFlag = readlineSync.question(`Is Manager (false), valid values [true,false] `) || false
+    let [newHire, _] = await createNewHire(startDate,managerFlag)
     //export to json file
     const fs = require('fs')
     fs.writeFileSync('./output/newHireScenario.json', JSON.stringify(newHire))
