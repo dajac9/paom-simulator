@@ -1,0 +1,16 @@
+{
+  "name": "payloadmaker",
+  "version": "1.0.0",
+  "description": "creates dummy payload for localtesting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node index.js"
+  },
+  "author": "Daniel Jacales",
+  "license": "ISC",
+  "dependencies": {
+    "randexp": "^0.5.3",
+    "readline-sync": "^1.4.10"
+  }
+}

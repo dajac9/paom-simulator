@@ -1,0 +1,15 @@
+{
+    "data": {
+      "paom": {
+        "persons": [],
+        "totalPages": { "pattern": "0"},
+        "currentPage": 0,
+        "totalRecords": 0,
+        "recordsPerPage": 100
+      }
+    },
+    "errors": [],
+    "dataPresent": true,
+    "extensions": null
+  }
+  
