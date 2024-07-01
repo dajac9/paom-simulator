@@ -3,25 +3,96 @@
     "paom": {
       "persons": [
         {
-          "personId": "63750916",
-          "logInfo": { "logTime": "2024-12-17 14:18:64.816" },
-          "empStatus": {
-            "validFrom": "2024-07-01",
-            "validTill": "9999-12-31",
-            "employmentStatus": "active",
-            "employmentStatusDetailed": "active",
-            "countryKey": "GB",
-            "businessUnit": "795",
-            "businessUnitType": "TestUnit",
-            "departmentName": "TestDepartment",
-            "managerEmployeeId": "active",
-            "managerPersonId": "active",
-            "jobTitle": "TestRole",
-            "managerFlag": "$mangerFlag",
-            "eventType": "Hire",
-            "eventReason": "HIRENEW",
-            "employeeId": "63750916"
-          }
+          "personId": "63754191",
+          "logInfo": {
+            "logTime": "2024-11-25 77:63:11.285"
+          },
+          "empStatus": [
+            {
+              "validFrom": "2024-07-01",
+              "validTill": "9999-12-31",
+              "employmentStatus": "active",
+              "employmentStatusDetailed": "active",
+              "countryKey": "GB",
+              "businessUnit": "134",
+              "businessUnitType": "TestUnit",
+              "departmentName": "TestDepartment",
+              "managerEmployeeId": "active",
+              "managerPersonId": "active",
+              "jobTitle": "TestRole",
+              "managerFlag": "$mangerFlag",
+              "eventType": "Hire",
+              "eventReason": "HIRENEW",
+              "employeeId": "63754191"
+            }
+          ],
+          "primaryInfo": [
+            {
+              "validFrom": "2024-07-01",
+              "validTill": "9999-12-31",
+              "lastWorkingDate": null,
+              "terminationDate": null,
+              "employeeId": "63754191"
+            }
+          ],
+          "joiningInfo": [
+            {
+              "validFrom": "2024-07-01",
+              "validTill": "9999-12-31",
+              "hireDate": "2024-07-01",
+              "firstDayAtIKEA": "2024-07-01",
+              "seniorityDate": "2023-05-15",
+              "contractStartDate": "2024-07-01"
+            }
+          ],
+          "jobInfo": [
+            {
+              "validFrom": "2024-07-01",
+              "validTill": "9999-12-31",
+              "costCentre": "02413",
+              "costCentreDesc": null,
+              "companyCode": "52063",
+              "companyName": "IKEA LTD",
+              "department": "GB60045",
+              "subDepartment": null,
+              "location": "GB00003",
+              "division": "GB00030",
+              "jobCode": "61596613",
+              "localJobTitle": null,
+              "personnelArea": "0138",
+              "personnelAreaName": "IKEA TEST",
+              "personnelSubArea": "0161",
+              "personnelSubAreaName": "TEST SUBAREA",
+              "employeeGroup": "1",
+              "employeeSubGroup": "V0",
+              "position": "67858",
+              "positionName": "Test Position",
+              "organizationalKey": null,
+              "contractHourly": null,
+              "employeeId": "63754191",
+              "flextimeAgreement": null
+            }
+          ],
+          "contractInfo": [
+            {
+              "validFrom": "2024-07-01",
+              "validTill": "9999-12-31",
+              "contractType": null,
+              "contractEndDate": null,
+              "employeeId": "63754191"
+            }
+          ],
+          "workDetails": [
+            {
+              "validFrom": "2024-07-01",
+              "validTill": "9999-12-31",
+              "employmentPercentage": "77,44",
+              "partTimeIndicator": "true",
+              "hoursPerWeek": "58",
+              "dailyWorkingHours": "03.6",
+              "weeklyWorkDays": "0"
+            }
+          ]
         }
       ],
       "totalPages": 1,

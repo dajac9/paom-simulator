@@ -1,19 +1,81 @@
 {
-    "empStatusSchema":{
-        "validFrom": "$startDate",
-        "validTill": "9999-12-31",
-        "employmentStatus": {"pattern":"active"},
-        "employmentStatusDetailed": {"pattern":"active"},
-        "countryKey": {"pattern":"GB"},
-        "businessUnit": {"pattern":"[0-9]{3}"},
-        "businessUnitType": {"pattern":"TestUnit"},
-        "departmentName": {"pattern":"TestDepartment"},
-        "managerEmployeeId": {"pattern":"active"},
-        "managerPersonId": {"pattern":"active"},
-        "jobTitle": {"pattern":"TestRole"},
-        "managerFlag": "$mangerFlag",
-        "eventType": {"pattern":"Hire"},
-        "eventReason": {"pattern":"HIRENEW"},
-        "employeeId": "$employeeId"
+  "empStatusSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "employmentStatus": { "pattern": "active" },
+    "employmentStatusDetailed": { "pattern": "active" },
+    "countryKey": { "pattern": "GB" },
+    "businessUnit": { "pattern": "[0-9]{3}" },
+    "businessUnitType": { "pattern": "TestUnit" },
+    "departmentName": { "pattern": "TestDepartment" },
+    "managerEmployeeId": { "pattern": "active" },
+    "managerPersonId": { "pattern": "active" },
+    "jobTitle": { "pattern": "TestRole" },
+    "managerFlag": "$mangerFlag",
+    "eventType": { "pattern": "Hire" },
+    "eventReason": { "pattern": "HIRENEW" },
+    "employeeId": "$employeeId"
+  },
+  "primaryInfoSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "lastWorkingDate": null,
+    "terminationDate": null,
+    "employeeId": "$employeeId"
+  },
+  "joiningInfoSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "hireDate": "$hireDate",
+    "firstDayAtIKEA": "$hireDate",
+    "seniorityDate": "2023-05-15",
+    "contractStartDate": "$hireDate"
+  },
+  "jobInfoSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "costCentre": { "pattern": "[0-9]{5,5}" },
+    "costCentreDesc": null,
+    "companyCode": { "pattern": "[0-9]{5,5}" },
+    "companyName": "IKEA LTD",
+    "department": { "pattern": "GB[0-9]{5,5}" },
+    "subDepartment": null,
+    "location": "GB00003",
+    "division": "GB00030",
+    "jobCode": { "pattern": "6[0-9]{7,7}" },
+    "localJobTitle": null,
+    "personnelArea": { "pattern": "[0-9]{4,4}" },
+    "personnelAreaName": "IKEA TEST",
+    "personnelSubArea": { "pattern": "[0-9]{4,4}" },
+    "personnelSubAreaName": "TEST SUBAREA",
+    "employeeGroup": "1",
+    "employeeSubGroup": "V0",
+    "position": { "pattern": "[0-9]{5,5}" },
+    "positionName": "Test Position",
+    "organizationalKey": null,
+    "contractHourly": null,
+    "employeeId": "$employeeId",
+    "flextimeAgreement": null
+  },
+  "contractInfoSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "contractType": null,
+    "contractEndDate": null,
+    "employeeId": "$employeeId"
+  },
+  "workDetailsSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "employmentPercentage": { "pattern": "^(?:[1-9]\\d?|0)(?:,\\d{2})?$" },
+    "partTimeIndicator": { "pattern": "(false|true)" },
+    "hoursPerWeek": { "pattern": "[0-9]{2,2}" },
+    "dailyWorkingHours": { "pattern": "[0-9]{2,2}\\.[0-9]{1,1}" },
+    "weeklyWorkDays": {
+      "pattern": "[0-9]{1,1}",
+      "monthlyHours": { "pattern": "[0-9]{2,2}\\.[0-9]{1,1}" },
+      "annualWorkingHours": null,
+      "employeeId": "$employeeId"
     }
+  }
 }

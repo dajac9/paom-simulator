@@ -11,7 +11,7 @@ async function getCurrentDate() {
 }
 
 async function isJSON(field){
-    if (typeof field === 'object' && !Array.isArray(field)) {
+    if (typeof field === 'object' && !Array.isArray(field) && field !== null) {
         return true
       } else {
         return false   
