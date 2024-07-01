@@ -1,13 +1,15 @@
 const { createNewHire } = require('./scenarios/NewHire')
+const {getCurrentDate} = require('./utils/tools')
 var readlineSync = require('readline-sync');
 
 async function main(){
     console.log("Select a scenario to build: ")
     console.log("1. New Hire 2. Update 3. Termination 4.Rehire")
+    const currentDate = await getCurrentDate()
     //read the user input
     let userInput = Number.parseInt(readlineSync.question("Select a scenario to build: "))
     //select start dates
-    let startDate = readlineSync.question("Enter the start date for the scenario: ")
+    let startDate = readlineSync.question(`Enter the start date for the scenario: (${currentDate}) `) || currentDate
     switch(userInput){
         case 1:
             await newHiresBuilder(startDate)
@@ -32,7 +34,7 @@ async function newHiresBuilder(startDate){
     let [newHire, _] = await createNewHire(startDate)
     //export to json file
     const fs = require('fs')
-    fs.writeFileSync('newHireScenario.json', JSON.stringify(newHire))
+    fs.writeFileSync('./output/newHireScenario.json', JSON.stringify(newHire))
 }
 
 async function terminationBuilder(startDate){
@@ -41,7 +43,7 @@ async function terminationBuilder(startDate){
     let [termination, _] = await TerminationScenario(newHire, endDate)
     //export to json file
     const fs = require('fs')
-    fs.writeFileSync('terminationScenario.json', JSON.stringify(termination))
+    fs.writeFileSync('./output/terminationScenario.json', JSON.stringify(termination))
 }
 
 

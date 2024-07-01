@@ -1,0 +1,36 @@
+{
+  "data": {
+    "paom": {
+      "persons": [
+        {
+          "personId": "63750916",
+          "logInfo": { "logTime": "2024-12-17 14:18:64.816" },
+          "empStatus": {
+            "validFrom": "2024-07-01",
+            "validTill": "9999-12-31",
+            "employmentStatus": "active",
+            "employmentStatusDetailed": "active",
+            "countryKey": "GB",
+            "businessUnit": "795",
+            "businessUnitType": "TestUnit",
+            "departmentName": "TestDepartment",
+            "managerEmployeeId": "active",
+            "managerPersonId": "active",
+            "jobTitle": "TestRole",
+            "managerFlag": "$mangerFlag",
+            "eventType": "Hire",
+            "eventReason": "HIRENEW",
+            "employeeId": "63750916"
+          }
+        }
+      ],
+      "totalPages": 1,
+      "currentPage": 0,
+      "totalRecords": 1,
+      "recordsPerPage": 100
+    }
+  },
+  "errors": [],
+  "dataPresent": true,
+  "extensions": null
+}

@@ -1,0 +1,19 @@
+{
+    "empStatusSchema":{
+        "validFrom": "$startDate",
+        "validTill": "9999-12-31",
+        "employmentStatus": {"pattern":"active"},
+        "employmentStatusDetailed": {"pattern":"active"},
+        "countryKey": {"pattern":"GB"},
+        "businessUnit": {"pattern":"[0-9]{3}"},
+        "businessUnitType": {"pattern":"TestUnit"},
+        "departmentName": {"pattern":"TestDepartment"},
+        "managerEmployeeId": {"pattern":"active"},
+        "managerPersonId": {"pattern":"active"},
+        "jobTitle": {"pattern":"TestRole"},
+        "managerFlag": "$mangerFlag",
+        "eventType": {"pattern":"Hire"},
+        "eventReason": {"pattern":"HIRENEW"},
+        "employeeId": "$employeeId"
+    }
+}
