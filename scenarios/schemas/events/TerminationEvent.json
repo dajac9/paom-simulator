@@ -2,8 +2,8 @@
   "empStatusSchema": {
     "validFrom": "$startDate",
     "validTill": "9999-12-31",
-    "employmentStatus": { "pattern": "active" },
-    "employmentStatusDetailed": { "pattern": "active" },
+    "employmentStatus": { "pattern": "inactive" },
+    "employmentStatusDetailed": { "pattern": "terminated" },
     "countryKey": { "pattern": "GB" },
     "businessUnit": { "pattern": "[0-9]{3}" },
     "businessUnitType": { "pattern": "TestUnit" },
@@ -12,24 +12,9 @@
     "managerPersonId": { "pattern": "63[\\d]{6,6}" },
     "jobTitle": { "pattern": "TestRole" },
     "managerFlag": "$mangerFlag",
-    "eventType": { "pattern": "Hire" },
-    "eventReason": { "pattern": "HIRENEW" },
+    "eventType": { "pattern": "Termination" },
+    "eventReason": { "pattern": "1007" },
     "employeeId": "$employeeId"
-  },
-  "primaryInfoSchema": {
-    "validFrom": "$startDate",
-    "validTill": "9999-12-31",
-    "lastWorkingDate": null,
-    "terminationDate": null,
-    "employeeId": "$employeeId"
-  },
-  "joiningInfoSchema": {
-    "validFrom": "$startDate",
-    "validTill": "9999-12-31",
-    "hireDate": "$hireDate",
-    "firstDayAtIKEA": "$hireDate",
-    "seniorityDate": "2023-05-15",
-    "contractStartDate": "$hireDate"
   },
   "jobInfoSchema": {
     "validFrom": "$startDate",

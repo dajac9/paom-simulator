@@ -6,7 +6,8 @@ const {
   joiningInfoSchema,
   jobInfoSchema,
   contractInfoSchema,
-  workDetailsSchema
+  workDetailsSchema,
+  payrollInfoSchema
 } = require("./schemas/events/hireEvent.json");
 const { readProperty } = require("../utils/tools");
 
@@ -31,12 +32,14 @@ async function createNewHire(startDate, params) {
   const jobInfo = await readProperty(jobInfoSchema, startDate, bindings);
   const contractInfo = await readProperty(contractInfoSchema, startDate, bindings);
   const workDetails = await readProperty(workDetailsSchema, startDate, bindings);
+  const payrollInfo = await readProperty(payrollInfoSchema, startDate, bindings);
   base_payload.data.paom.persons[0].empStatus = [empStatus];
   base_payload.data.paom.persons[0].primaryInfo = [primaryInfo]
   base_payload.data.paom.persons[0].joiningInfo = [joiningInfo]
   base_payload.data.paom.persons[0].jobInfo = [jobInfo]
   base_payload.data.paom.persons[0].contractInfo = [contractInfo]
   base_payload.data.paom.persons[0].workDetails = [workDetails]
+  base_payload.data.paom.persons[0].payrollInfo = [payrollInfo]
   return [base_payload, startDate];
 }
 

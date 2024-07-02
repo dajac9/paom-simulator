@@ -1,5 +1,6 @@
 const { createNewHire } = require("./scenarios/NewHire");
 const { getCurrentDate } = require("./utils/tools");
+const  {createTermination} = require("./scenarios/Termination");
 var readlineSync = require("readline-sync");
 
 async function main() {
@@ -40,7 +41,7 @@ async function newHiresBuilder(startDate) {
     readlineSync.question(`Is Manager (false), valid values [true,false] `) ||
     "false";
   let hireDate = readlineSync.question(`Enter hireDate value: (${startDate})`) || startDate;
-  const params = { "mangerFlag": managerFlag , "hireDate": hireDate};
+  const params = { "managerFlag": managerFlag , "hireDate": hireDate};
   let [newHire, _] = await createNewHire(startDate, params);
   //export to json file
   const fs = require("fs");
@@ -51,12 +52,13 @@ async function newHiresBuilder(startDate) {
 async function terminationBuilder(startDate) {
   console.log("Building a termination scenario...");
   const newHire = await newHiresBuilder(startDate);
-  let TerminatioDate =
+  let daysUntilTermination =
     readlineSync.question(
-      `Enter the termination date for the scenario: (${startDate}) `
-    ) || startDate;
-  const params = { terminationDate: TerminatioDate };
-  let [termination, _] = await TerminationScenario(newHire, params);
+      `Enter the days after last event for termination: (0) `
+    ) || "0";
+  const days = Number.parseInt(daysUntilTermination);
+  const params = { terminationDate: days };
+  let [termination, _] = await createTermination(newHire, params);
   //export to json file
   const fs = require("fs");
   fs.writeFileSync(
