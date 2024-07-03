@@ -1,0 +1,38 @@
+{
+  "birthInfoSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "dateOfBirth": {
+      "pattern": "^(19[4-9][0-9]|20[0-2][0-9])-(12|11|0[0-9])-(0?[1-9]|[12]\\d|3[01])$"
+    },
+    "birthPlace": "#cityName"
+  },
+  "phoneNumbersSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "phoneType": "IKEA",
+    "phoneNumber": { "pattern": "[0-9]{6,6}" }
+  },
+  "emailIdsSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "emailType": "BUSINESS",
+    "emailAddress": { "pattern": "[0-9a-zA-Z\\_]{4,10}@ingka.ikeadt.com" },
+    "networkId": { "pattern": "[a-z0-9]{4,6}" }
+  },
+  "namesSchema": {
+    "validFrom": "$startDate",
+    "validTill": "9999-12-31",
+    "nameType": {"pattern": "(LEGAL|CHOSEN)"},
+    "title": null,
+    "firstName": "#getFirstName",
+    "middleName": null,
+    "lastName": "#getLastName",
+    "initials": null,
+    "fullName": "#getFullName",
+    "language": "EN",
+    "gender": { "pattern": "(Male|Female)" },
+    "nationality": null,
+    "maritalStatus": null
+  }
+}
