@@ -1,5 +1,6 @@
 //returns a value given a regex that gives the generation rule
 const RandExp = require("randexp");
+const {getCityName,getFullName,getFirstName,getLastNames} = require("./dictionaries.js");
 
 async function getCurrentDate() {
   const date = new Date();
@@ -40,14 +41,23 @@ async function generateValue(regex) {
 }
 
 async function addBinding(current, bindings) {
+  const dinamic = {
+    "#cityName": await getCityName(),
+    "#getFirstName": await getFirstName(),
+    "#getLastName": await getLastNames(),
+    "#getFullName": await getFullName(),
+  }
   if (bindings[current]) {
     return bindings[current];
-  } else {
-    return current;
+  } else if (dinamic[current]) {
+    console.log(`Dinamic value:[${current}]: ${dinamic[current]}`)
+    return  dinamic[current];
+  }else{
+    return current
   }
 }
 
-async function readProperty(schema, startDate, bindings = {}) {
+async function readProperty(schema, bindings = {}) {
   var obj = {};
   const keys = Object.keys(schema);
   for (const key of keys) {
@@ -56,7 +66,7 @@ async function readProperty(schema, startDate, bindings = {}) {
     if (await isJSON(current)) {
       //console.log("Reading object: ", current);
       if (current["pattern"] === undefined) {
-        obj[key] = await readProperty(current, startDate);
+        obj[key] = await readProperty(current, bindings);
       } else {
         const val = await generateValue(current.pattern);
         obj[key] = val

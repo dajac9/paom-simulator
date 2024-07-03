@@ -34,7 +34,7 @@
   "jobInfoSchema": {
     "validFrom": "$startDate",
     "validTill": "9999-12-31",
-    "costCentre": { "pattern": "[0-9]{5,5}" },
+    "costCentre": { "pattern": "GD[0-9]{5,5}" },
     "costCentreDesc": null,
     "companyCode": { "pattern": "[0-9]{5,5}" },
     "companyName": "IKEA LTD",
@@ -55,7 +55,8 @@
     "organizationalKey": null,
     "contractHourly": null,
     "employeeId": "$employeeId",
-    "flextimeAgreement": null
+    "flextimeAgreement": null,
+    "employmentType": "COWORKER"
   },
   "contractInfoSchema": {
     "validFrom": "$startDate",

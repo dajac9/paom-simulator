@@ -3,101 +3,144 @@
     "paom": {
       "persons": [
         {
-          "personId": "63820810",
+          "personId": "63896287",
           "logInfo": {
-            "logTime": "2024-11-27 73:03:03.632"
+            "logTime": "2024-12-23 60:43:21.727"
           },
+          "birthInfo": [
+            {
+              "validFrom": "2024-07-03",
+              "validTill": "9999-12-31",
+              "dateOfBirth": "2018-12-04",
+              "birthPlace": "Liverpool"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "validFrom": "2024-07-03",
+              "validTill": "9999-12-31",
+              "phoneType": "IKEA",
+              "phoneNumber": "385111"
+            }
+          ],
+          "emailIds": [
+            {
+              "validFrom": "2024-07-03",
+              "validTill": "9999-12-31",
+              "emailType": "BUSINESS",
+              "emailAddress": "ezGym@ingkatikeadtIcom",
+              "networkId": "enu9n"
+            }
+          ],
+          "names": [
+            {
+              "validFrom": "2024-07-03",
+              "validTill": "9999-12-31",
+              "nameType": "CHOSEN",
+              "title": null,
+              "firstName": "Oscar",
+              "middleName": null,
+              "lastName": "Clark",
+              "initials": null,
+              "fullName": "Olivia Brown",
+              "language": "EN",
+              "gender": "Male",
+              "nationality": null,
+              "maritalStatus": null
+            }
+          ],
           "empStatus": [
             {
-              "validFrom": "2024-07-02",
+              "validFrom": "2024-07-03",
               "validTill": "9999-12-31",
               "employmentStatus": "active",
               "employmentStatusDetailed": "active",
               "countryKey": "GB",
-              "businessUnit": "254",
+              "businessUnit": "951",
               "businessUnitType": "TestUnit",
               "departmentName": "TestDepartment",
-              "managerEmployeeId": "63699569",
-              "managerPersonId": "63888092",
+              "managerEmployeeId": "63732098",
+              "managerPersonId": "63113778",
               "jobTitle": "TestRole",
               "managerFlag": "false",
               "eventType": "Hire",
               "eventReason": "HIRENEW",
-              "employeeId": "63820810"
+              "employeeId": "63896287"
             }
           ],
           "primaryInfo": [
             {
-              "validFrom": "2024-07-02",
+              "validFrom": "2024-07-03",
               "validTill": "9999-12-31",
               "lastWorkingDate": null,
               "terminationDate": null,
-              "employeeId": "63820810"
+              "employeeId": "63896287"
             }
           ],
           "joiningInfo": [
             {
-              "validFrom": "2024-07-02",
+              "validFrom": "2024-07-03",
               "validTill": "9999-12-31",
-              "hireDate": "2024-07-02",
-              "firstDayAtIKEA": "2024-07-02",
+              "hireDate": "2024-05-01",
+              "firstDayAtIKEA": "2024-05-01",
               "seniorityDate": "2023-05-15",
-              "contractStartDate": "2024-07-02"
+              "contractStartDate": "2024-05-01"
             }
           ],
           "jobInfo": [
             {
-              "validFrom": "2024-07-02",
+              "validFrom": "2024-07-03",
               "validTill": "9999-12-31",
-              "costCentre": "57992",
+              "costCentre": "GD07385",
               "costCentreDesc": null,
-              "companyCode": "65578",
+              "companyCode": "08356",
               "companyName": "IKEA LTD",
-              "department": "GB21642",
+              "department": "GB88671",
               "subDepartment": null,
               "location": "GB00003",
               "division": "GB00030",
-              "jobCode": "64316917",
+              "jobCode": "63382786",
               "localJobTitle": null,
-              "personnelArea": "3017",
+              "personnelArea": "9589",
               "personnelAreaName": "IKEA TEST",
-              "personnelSubArea": "6863",
+              "personnelSubArea": "8509",
               "personnelSubAreaName": "TEST SUBAREA",
               "employeeGroup": "1",
               "employeeSubGroup": "V0",
-              "position": "40827",
+              "position": "20011",
               "positionName": "Test Position",
               "organizationalKey": null,
               "contractHourly": null,
-              "employeeId": "63820810",
-              "flextimeAgreement": null
+              "employeeId": "63896287",
+              "flextimeAgreement": null,
+              "employmentType": "COWORKER"
             }
           ],
           "contractInfo": [
             {
-              "validFrom": "2024-07-02",
+              "validFrom": "2024-07-03",
               "validTill": "9999-12-31",
               "contractType": null,
               "contractEndDate": null,
-              "employeeId": "63820810"
+              "employeeId": "63896287"
             }
           ],
           "workDetails": [
             {
-              "validFrom": "2024-07-02",
+              "validFrom": "2024-07-03",
               "validTill": "9999-12-31",
-              "employmentPercentage": "23,49",
+              "employmentPercentage": "0,51",
               "partTimeIndicator": "false",
-              "hoursPerWeek": "95",
-              "dailyWorkingHours": "03.3",
-              "weeklyWorkDays": "3"
+              "hoursPerWeek": "23",
+              "dailyWorkingHours": "14.2",
+              "weeklyWorkDays": "2"
             }
           ],
           "payrollInfo": [
             {
-              "validFrom": "2024-07-02",
+              "validFrom": "2024-07-03",
               "validTill": "9999-12-31",
-              "payrollArea": "V[0-9]",
+              "payrollArea": "V3",
               "payrollAreaDate": null
             }
           ]
