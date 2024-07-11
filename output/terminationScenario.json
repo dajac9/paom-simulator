@@ -3,210 +3,210 @@
     "paom": {
       "persons": [
         {
-          "personId": "63896287",
+          "personId": "63455967",
           "logInfo": {
-            "logTime": "2024-12-23 60:43:21.727"
+            "logTime": "2024-11-01 18:98:53.244"
           },
           "birthInfo": [
             {
-              "validFrom": "2024-07-03",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
-              "dateOfBirth": "2018-12-04",
-              "birthPlace": "Liverpool"
+              "dateOfBirth": "1980-05-12",
+              "birthPlace": "Cardiff"
             }
           ],
           "phoneNumbers": [
             {
-              "validFrom": "2024-07-03",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
               "phoneType": "IKEA",
-              "phoneNumber": "385111"
+              "phoneNumber": "111335"
             }
           ],
           "emailIds": [
             {
-              "validFrom": "2024-07-03",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
               "emailType": "BUSINESS",
-              "emailAddress": "ezGym@ingkatikeadtIcom",
-              "networkId": "enu9n"
+              "emailAddress": "SIdNiOW7m@ingka ikeadtecom",
+              "networkId": "xwf7g"
             }
           ],
           "names": [
             {
-              "validFrom": "2024-07-03",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
-              "nameType": "CHOSEN",
+              "nameType": "LEGAL",
               "title": null,
-              "firstName": "Oscar",
+              "firstName": "Henry",
               "middleName": null,
-              "lastName": "Clark",
+              "lastName": "Thompson",
               "initials": null,
-              "fullName": "Olivia Brown",
+              "fullName": "Mia Williams",
               "language": "EN",
-              "gender": "Male",
+              "gender": "Female",
               "nationality": null,
               "maritalStatus": null
             }
           ],
           "empStatus": [
             {
-              "validFrom": "2024-07-03",
-              "validTill": "2024-09-30",
+              "validFrom": "2024-07-11",
+              "validTill": "2024-07-10",
               "employmentStatus": "active",
               "employmentStatusDetailed": "active",
               "countryKey": "GB",
-              "businessUnit": "951",
+              "businessUnit": "292",
               "businessUnitType": "TestUnit",
               "departmentName": "TestDepartment",
-              "managerEmployeeId": "63732098",
-              "managerPersonId": "63113778",
+              "managerEmployeeId": "63213866",
+              "managerPersonId": "63082599",
               "jobTitle": "TestRole",
               "managerFlag": "false",
               "eventType": "Hire",
               "eventReason": "HIRENEW",
-              "employeeId": "63896287"
+              "employeeId": "63455967"
             },
             {
-              "validFrom": "2024-10-01",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
               "employmentStatus": "inactive",
               "employmentStatusDetailed": "terminated",
               "countryKey": "GB",
-              "businessUnit": "860",
+              "businessUnit": "544",
               "businessUnitType": "TestUnit",
               "departmentName": "TestDepartment",
-              "managerEmployeeId": "63820090",
-              "managerPersonId": "63467115",
+              "managerEmployeeId": "63868023",
+              "managerPersonId": "63655907",
               "jobTitle": "TestRole",
               "managerFlag": "false",
               "eventType": "Termination",
               "eventReason": "1007",
-              "employeeId": "63896287"
+              "employeeId": "63455967"
             }
           ],
           "primaryInfo": [
             {
-              "validFrom": "2024-07-03",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
-              "lastWorkingDate": "2024-10-01",
-              "terminationDate": "2024-10-01",
-              "employeeId": "63896287"
+              "lastWorkingDate": "2024-07-11",
+              "terminationDate": "2024-07-11",
+              "employeeId": "63455967"
             }
           ],
           "joiningInfo": [
             {
-              "validFrom": "2024-07-03",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
-              "hireDate": "2024-05-01",
-              "firstDayAtIKEA": "2024-05-01",
+              "hireDate": "2024-07-25",
+              "firstDayAtIKEA": "2024-07-25",
               "seniorityDate": "2023-05-15",
-              "contractStartDate": "2024-05-01"
+              "contractStartDate": "2024-07-25"
             }
           ],
           "jobInfo": [
             {
-              "validFrom": "2024-07-03",
-              "validTill": "2024-09-30",
-              "costCentre": "GD07385",
+              "validFrom": "2024-07-11",
+              "validTill": "2024-07-10",
+              "costCentre": "GD41641",
               "costCentreDesc": null,
-              "companyCode": "08356",
+              "companyCode": "71916",
               "companyName": "IKEA LTD",
-              "department": "GB88671",
+              "department": "GB05363",
               "subDepartment": null,
               "location": "GB00003",
               "division": "GB00030",
-              "jobCode": "63382786",
+              "jobCode": "60720134",
               "localJobTitle": null,
-              "personnelArea": "9589",
+              "personnelArea": "2530",
               "personnelAreaName": "IKEA TEST",
-              "personnelSubArea": "8509",
+              "personnelSubArea": "6750",
               "personnelSubAreaName": "TEST SUBAREA",
               "employeeGroup": "1",
               "employeeSubGroup": "V0",
-              "position": "20011",
+              "position": "44774",
               "positionName": "Test Position",
               "organizationalKey": null,
               "contractHourly": null,
-              "employeeId": "63896287",
+              "employeeId": "63455967",
               "flextimeAgreement": null,
               "employmentType": "COWORKER"
             },
             {
-              "validFrom": "2024-10-01",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
-              "costCentre": "GD08841",
+              "costCentre": "GD39188",
               "costCentreDesc": null,
-              "companyCode": "51086",
+              "companyCode": "30997",
               "companyName": "IKEA LTD",
-              "department": "GB05124",
+              "department": "GB54363",
               "subDepartment": null,
               "location": "GB00003",
               "division": "GB00030",
-              "jobCode": "60136195",
+              "jobCode": "61124922",
               "localJobTitle": null,
-              "personnelArea": "7305",
+              "personnelArea": "1702",
               "personnelAreaName": "IKEA TEST",
-              "personnelSubArea": "9345",
+              "personnelSubArea": "9914",
               "personnelSubAreaName": "TEST SUBAREA",
               "employeeGroup": "1",
               "employeeSubGroup": "V0",
-              "position": "78110",
+              "position": "52649",
               "positionName": "Test Position",
               "organizationalKey": null,
               "contractHourly": null,
-              "employeeId": "63896287",
+              "employeeId": "63455967",
               "flextimeAgreement": null,
               "employmentType": "COWORKER"
             }
           ],
           "contractInfo": [
             {
-              "validFrom": "2024-07-03",
-              "validTill": "2024-09-30",
+              "validFrom": "2024-07-11",
+              "validTill": "2024-07-10",
               "contractType": null,
               "contractEndDate": null,
-              "employeeId": "63896287"
+              "employeeId": "63455967"
             },
             {
-              "validFrom": "2024-10-01",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
               "contractType": null,
               "contractEndDate": null,
-              "employeeId": "63896287"
+              "employeeId": "63455967"
             }
           ],
           "workDetails": [
             {
-              "validFrom": "2024-07-03",
-              "validTill": "2024-09-30",
-              "employmentPercentage": "0,51",
+              "validFrom": "2024-07-11",
+              "validTill": "2024-07-10",
+              "employmentPercentage": "4,73",
               "partTimeIndicator": "false",
-              "hoursPerWeek": "23",
-              "dailyWorkingHours": "14.2",
-              "weeklyWorkDays": "2"
+              "hoursPerWeek": "53",
+              "dailyWorkingHours": "01.3",
+              "weeklyWorkDays": "1"
             },
             {
-              "validFrom": "2024-10-01",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
-              "employmentPercentage": "97,47",
-              "partTimeIndicator": "true",
-              "hoursPerWeek": "60",
-              "dailyWorkingHours": "62.9",
-              "weeklyWorkDays": "0"
+              "employmentPercentage": "0",
+              "partTimeIndicator": "false",
+              "hoursPerWeek": "32",
+              "dailyWorkingHours": "96.7",
+              "weeklyWorkDays": "3"
             }
           ],
           "payrollInfo": [
             {
-              "validFrom": "2024-07-03",
-              "validTill": "2024-09-30",
-              "payrollArea": "V3",
+              "validFrom": "2024-07-11",
+              "validTill": "2024-07-10",
+              "payrollArea": "V6",
               "payrollAreaDate": null
             },
             {
-              "validFrom": "2024-10-01",
+              "validFrom": "2024-07-11",
               "validTill": "9999-12-31",
-              "payrollArea": "V5",
+              "payrollArea": "V8",
               "payrollAreaDate": null
             }
           ]
